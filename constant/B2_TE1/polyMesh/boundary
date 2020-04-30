@@ -1,0 +1,109 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       polyBoundaryMesh;
+    location    "constant/B2_TE1/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+6
+(
+    B2_TE1_B2_TE5
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          846;
+        startFace       90756;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B3_TE1;
+        samplePatch     B3_TE1_B3_TE197;
+    }
+    B2_TE1_B2_TE15
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          846;
+        startFace       91602;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B3_TE1;
+        samplePatch     B3_TE1_B3_TE250;
+    }
+    B2_TE1_B2_TE22
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          4440;
+        startFace       92448;
+    }
+    B2_TE1_B2_TE27
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          846;
+        startFace       96888;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B3_TE1;
+        samplePatch     B3_TE1_B3_TE258;
+    }
+    B2_TE1_B2_TE32
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          846;
+        startFace       97734;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B3_TE1;
+        samplePatch     B3_TE1_B3_TE187;
+    }
+    B2_TE1_B2_TE35
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          6424;
+        startFace       98580;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B3_TE1;
+        samplePatch     B3_TE1_B3_TE255;
+    }
+)
+
+// ************************************************************************* //

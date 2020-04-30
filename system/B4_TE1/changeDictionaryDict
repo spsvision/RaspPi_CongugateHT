@@ -1,0 +1,673 @@
+FoamFile {
+    version 2.0;
+    format ascii;
+    class dictionary;
+    object changeDictionaryDict;
+}
+dictionaryReplacement {
+    boundary {
+        
+    }
+    p {
+        boundaryField {
+            B4_TE1_B4_TE832 {
+                type calculated;
+            }
+            B4_TE1_B4_TE819 {
+                type calculated;
+            }
+            B4_TE1_B4_TE827 {
+                type calculated;
+            }
+            B4_TE1_B4_TE1054 {
+                type calculated;
+            }
+            B4_TE1_B4_TE744 {
+                type calculated;
+            }
+            B4_TE1_B4_TE837 {
+                type calculated;
+            }
+            B4_TE1_B4_TE904 {
+                type calculated;
+            }
+            B4_TE1_B4_TE949 {
+                type calculated;
+            }
+            B4_TE1_B4_TE908 {
+                type calculated;
+            }
+            B4_TE1_B4_TE806 {
+                type calculated;
+            }
+            B4_TE1_B4_TE737 {
+                type calculated;
+            }
+            B4_TE1_B4_TE1045 {
+                type calculated;
+            }
+            B4_TE1_B4_TE1052 {
+                type calculated;
+            }
+            B4_TE1_B4_TE1047 {
+                type calculated;
+            }
+            B4_TE1_B4_TE1056 {
+                type calculated;
+            }
+            B4_TE1_B4_TE591 {
+                type calculated;
+            }
+            B4_TE1_B4_TE1011 {
+                type calculated;
+            }
+            B4_TE1_B4_TE490 {
+                type calculated;
+            }
+            B4_TE1_B4_TE978 {
+                type calculated;
+            }
+            B4_TE1_B4_TE1050 {
+                type calculated;
+            }
+            B4_TE1_B4_TE1058 {
+                type calculated;
+            }
+            B4_TE1_B4_TE889 {
+                type calculated;
+            }
+            B4_TE1_B4_TE1037 {
+                type calculated;
+            }
+            B4_TE1_B4_TE579 {
+                type calculated;
+            }
+            B4_TE1_B4_TE349 {
+                type calculated;
+            }
+            B4_TE1_B4_TE1043 {
+                type calculated;
+            }
+            B4_TE1_B4_TE610 {
+                type calculated;
+            }
+            B4_TE1_B4_TE787 {
+                type calculated;
+            }
+            B4_TE1_B4_TE461 {
+                type calculated;
+            }
+            B4_TE1_B4_TE791 {
+                type calculated;
+            }
+            B4_TE1_B4_TE615 {
+                type calculated;
+            }
+            B4_TE1_B4_TE775 {
+                type calculated;
+            }
+            B4_TE1_B4_TE763 {
+                type calculated;
+            }
+            B4_TE1_B4_TE1016 {
+                type calculated;
+            }
+            B4_TE1_B4_TE620 {
+                type calculated;
+            }
+            B4_TE1_B4_TE468 {
+                type calculated;
+            }
+            B4_TE1_B4_TE625 {
+                type calculated;
+            }
+            B4_TE1_B4_TE1040 {
+                type calculated;
+            }
+        }
+    }
+    p_rgh {
+        boundaryField {
+            B4_TE1_B4_TE832 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE819 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE827 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE1054 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE744 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE837 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE904 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE949 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE908 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE806 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE737 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE1045 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE1052 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE1047 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE1056 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE591 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE1011 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE490 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE978 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE1050 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE1058 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE889 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE1037 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE579 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE349 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE1043 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE610 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE787 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE461 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE791 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE615 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE775 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE763 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE1016 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE620 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE468 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE625 {
+                type fixedFluxPressure;
+            }
+            B4_TE1_B4_TE1040 {
+                type fixedFluxPressure;
+            }
+        }
+    }
+    U {
+        boundaryField {
+            B4_TE1_B4_TE832 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE819 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE827 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE1054 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE744 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE837 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE904 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE949 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE908 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE806 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE737 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE1045 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE1052 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE1047 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE1056 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE591 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE1011 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE490 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE978 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE1050 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE1058 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE889 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE1037 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE579 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE349 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE1043 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE610 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE787 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE461 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE791 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE615 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE775 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE763 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE1016 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE620 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE468 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE625 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B4_TE1_B4_TE1040 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+        }
+    }
+    T {
+        boundaryField {
+            B4_TE1_B4_TE832 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE819 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE827 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE1054 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE744 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE837 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE904 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE949 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE908 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE806 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE737 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE1045 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE1052 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE1047 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE1056 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE591 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE1011 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE490 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE978 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE1050 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE1058 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE889 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE1037 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE579 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE349 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE1043 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE610 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE787 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE461 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE791 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE615 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE775 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE763 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE1016 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE620 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE468 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE625 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+            B4_TE1_B4_TE1040 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa fluidThermo;
+            }
+        }
+    }
+}

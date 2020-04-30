@@ -1,0 +1,112 @@
+FoamFile {
+    version 2.0;
+    format ascii;
+    class dictionary;
+    object changeDictionaryDict;
+}
+dictionaryReplacement {
+    boundary {
+        
+    }
+    p {
+        boundaryField {
+            B2_TE1_B2_TE15 {
+                type calculated;
+            }
+            B2_TE1_B2_TE27 {
+                type calculated;
+            }
+            B2_TE1_B2_TE5 {
+                type calculated;
+            }
+            B2_TE1_B2_TE35 {
+                type calculated;
+            }
+            B2_TE1_B2_TE32 {
+                type calculated;
+            }
+        }
+    }
+    p_rgh {
+        boundaryField {
+            B2_TE1_B2_TE15 {
+                type fixedFluxPressure;
+            }
+            B2_TE1_B2_TE27 {
+                type fixedFluxPressure;
+            }
+            B2_TE1_B2_TE5 {
+                type fixedFluxPressure;
+            }
+            B2_TE1_B2_TE35 {
+                type fixedFluxPressure;
+            }
+            B2_TE1_B2_TE32 {
+                type fixedFluxPressure;
+            }
+        }
+    }
+    U {
+        boundaryField {
+            B2_TE1_B2_TE15 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B2_TE1_B2_TE27 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B2_TE1_B2_TE5 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B2_TE1_B2_TE35 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+            B2_TE1_B2_TE32 {
+                type movingWallVelocity;
+                value uniform  (0 0 0);
+            }
+        }
+    }
+    T {
+        boundaryField {
+            B2_TE1_B2_TE15 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa solidThermo;
+            }
+            B2_TE1_B2_TE27 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa solidThermo;
+            }
+            B2_TE1_B2_TE5 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa solidThermo;
+            }
+            B2_TE1_B2_TE35 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa solidThermo;
+            }
+            B2_TE1_B2_TE32 {
+                kappaName none;
+                Tnbr T;
+                type compressible::turbulentTemperatureCoupledBaffleMixed;
+                value $internalField;
+                kappa solidThermo;
+            }
+        }
+    }
+}

@@ -1,0 +1,637 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       polyBoundaryMesh;
+    location    "constant/B3_TE1/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+39
+(
+    B3_TE1_B3_TE5
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          3360;
+        startFace       498185;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE461;
+    }
+    B3_TE1_B3_TE15
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          3600;
+        startFace       501545;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE349;
+    }
+    B3_TE1_B3_TE25
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          960;
+        startFace       505145;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE1037;
+    }
+    B3_TE1_B3_TE32
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          4095;
+        startFace       506105;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE978;
+    }
+    B3_TE1_B3_TE90
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          5742;
+        startFace       510200;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE490;
+    }
+    B3_TE1_B3_TE148
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          3084;
+        startFace       515942;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE1056;
+    }
+    B3_TE1_B3_TE151
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          3084;
+        startFace       519026;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE1047;
+    }
+    B3_TE1_B3_TE155
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          2952;
+        startFace       522110;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE620;
+    }
+    B3_TE1_B3_TE159
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          624;
+        startFace       525062;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE1011;
+    }
+    B3_TE1_B3_TE162
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          624;
+        startFace       525686;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE763;
+    }
+    B3_TE1_B3_TE166
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          624;
+        startFace       526310;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE744;
+    }
+    B3_TE1_B3_TE170
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          3084;
+        startFace       526934;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE610;
+    }
+    B3_TE1_B3_TE174
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          2952;
+        startFace       530018;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE806;
+    }
+    B3_TE1_B3_TE177
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          2952;
+        startFace       532970;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE579;
+    }
+    B3_TE1_B3_TE180
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          2952;
+        startFace       535922;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE832;
+    }
+    B3_TE1_B3_TE184
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          3084;
+        startFace       538874;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE827;
+    }
+    B3_TE1_B3_TE187
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          613;
+        startFace       541958;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B2_TE1;
+        samplePatch     B2_TE1_B2_TE32;
+    }
+    B3_TE1_B3_TE197
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          614;
+        startFace       542571;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B2_TE1;
+        samplePatch     B2_TE1_B2_TE5;
+    }
+    B3_TE1_B3_TE204
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          624;
+        startFace       543185;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE625;
+    }
+    B3_TE1_B3_TE207
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          624;
+        startFace       543809;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE591;
+    }
+    B3_TE1_B3_TE209
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          2952;
+        startFace       544433;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE889;
+    }
+    B3_TE1_B3_TE213
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          624;
+        startFace       547385;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE837;
+    }
+    B3_TE1_B3_TE215
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          2952;
+        startFace       548009;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE775;
+    }
+    B3_TE1_B3_TE218
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          3084;
+        startFace       550961;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE1040;
+    }
+    B3_TE1_B3_TE222
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          2952;
+        startFace       554045;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE791;
+    }
+    B3_TE1_B3_TE226
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          624;
+        startFace       556997;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE737;
+    }
+    B3_TE1_B3_TE228
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          960;
+        startFace       557621;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE1058;
+    }
+    B3_TE1_B3_TE230
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          960;
+        startFace       558581;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE1045;
+    }
+    B3_TE1_B3_TE232
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          960;
+        startFace       559541;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE1043;
+    }
+    B3_TE1_B3_TE234
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          960;
+        startFace       560501;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE1050;
+    }
+    B3_TE1_B3_TE236
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          960;
+        startFace       561461;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE615;
+    }
+    B3_TE1_B3_TE238
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          960;
+        startFace       562421;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE1054;
+    }
+    B3_TE1_B3_TE241
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          960;
+        startFace       563381;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE1052;
+    }
+    B3_TE1_B3_TE244
+    {
+        type            wall;
+        inGroups        1(wall);
+        nFaces          3905;
+        startFace       564341;
+    }
+    B3_TE1_B3_TE250
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          614;
+        startFace       568246;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B2_TE1;
+        samplePatch     B2_TE1_B2_TE15;
+    }
+    B3_TE1_B3_TE255
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          4167;
+        startFace       568860;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B2_TE1;
+        samplePatch     B2_TE1_B2_TE35;
+    }
+    B3_TE1_B3_TE258
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          614;
+        startFace       573027;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B2_TE1;
+        samplePatch     B2_TE1_B2_TE27;
+    }
+    B3_TE1_B3_TE260
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          3084;
+        startFace       573641;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE819;
+    }
+    B3_TE1_B3_TE262
+    {
+        type            mappedWall;
+        inGroups        
+2
+(
+wall
+mappedPatch
+)
+;
+        nFaces          3081;
+        startFace       576725;
+        sampleMode      nearestPatchFace;
+        sampleRegion    B4_TE1;
+        samplePatch     B4_TE1_B4_TE1016;
+    }
+)
+
+// ************************************************************************* //

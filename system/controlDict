@@ -1,0 +1,36 @@
+FoamFile {
+    version 2.0;
+    format ascii;
+    class dictionary;
+    object controlDict;
+}
+libs ("libsimpleFunctionObjects.so" "libgroovyBC.so");
+functions {
+    sigHandler {
+        type writeOldTimesOnSignal;
+        numberOfTimestepsToStore 1;
+        writeCurrent true;
+        // sigFPE false;
+        // sigSEGV false;
+        // sigINT false;
+        sigQUIT true;
+    }
+}
+application chtMultiRegionSimpleFoam;
+startFrom startTime;
+stopAt endTime;
+purgeWrite 0;
+writeFormat ascii;
+writePrecision 12;
+writeCompression on;
+timeFormat general;
+timePrecision 12;
+runTimeModifiable yes;
+deltaT 1.0;
+startTime 0.0;
+endTime 1000.0;
+adjustTimeStep no;
+writeControl timeStep;
+writeInterval 1000;
+secondaryWriteControl adjustableRunTime;
+secondaryWriteInterval 1000.0;

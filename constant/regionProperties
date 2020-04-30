@@ -1,0 +1,7 @@
+FoamFile {
+    version 2.0;
+    format ascii;
+    class dictionary;
+    object regionProperties;
+}
+regions (fluid (B4_TE1) solid (B3_TE1 B1_TE1 B2_TE1));
